@@ -66,7 +66,7 @@ namespace tikgen
             temp[size + 0xA7] = ver2;
 
             for (int i = 0; i < 16; i++) {
-                temp[size + 0x7F + i] = (byte)enckey[i];
+                temp[size + 0x7F + i] = b_enckey[i];
             }
 
             return temp;
